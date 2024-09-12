@@ -1,0 +1,442 @@
+/* All HTML  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(220, 20, 60, 0.082);
+    /* min-height: 100vw; */
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    /* border: 2px solid black; */
+
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+
+/* .profile {
+
+    border: 1px solid black;
+} */
+
+.profile img {
+    width: 30px;
+    height: auto;
+    /* background-color: yellow; */
+}
+
+/* index.html css */
+/* #maps iframe {
+    width: 100%;
+    height: 100vh;
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* border: 1px solid black; */
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    background-color: #fff;
+    font-family: system-ui;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: sticky;
+    bottom: 0;
+}
+
+.container div p {
+    margin-bottom: 0;
+    font-size: x-small;
+    position: relative;
+    bottom: 4px;
+}
+
+.container img {
+    width: 20px;
+    height: 18px;
+}
+
+
+
+.searchbar {
+    /* border: 1px solid gray; */
+    padding: 5px 15px;
+    border-radius: 10px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin: 10px 4px;
+    background-color: #fff;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.searchbar input {
+    background-color: rgba(128, 128, 128, 0.473);
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    padding: 8px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+}
+
+::placeholder {
+    color: #000000;
+
+}
+
+.searchbar button {
+    background-color: rgba(128, 128, 128, 0.473);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 8px 0px 8px 8px;
+
+    border: none;
+
+}
+
+.searchbar button img {
+    width: 16px;
+    position: relative;
+    bottom: 2px;
+
+
+}
+
+.location-links {
+    background-color: #fff;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+.location-links img {
+    width: 14px;
+    height: 14px;
+}
+
+.location-links-item {
+    display: flex;
+}
+
+.location-links-item div {
+    margin-left: 10px;
+    width: 32px;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.295);
+}
+
+.greaterthan {
+    position: absolute;
+    right: 25px;
+}
+
+hr {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    width: 345px;
+    position: relative;
+    left: 50px;
+}
+
+/* style of middle */
+.middle {
+    display: flex;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 4px;
+    margin-top: 10px;
+}
+
+.middle div {
+    /* border: 1px solid black; */
+
+    text-align: center;
+}
+
+.middle p {
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+    margin-top: 6px;
+    /* white-space: pre; */
+}
+
+#p1 {
+    line-height: 18px;
+}
+
+#p1::after {
+    content: "Ticket";
+    display: block;
+}
+
+#p2 {
+    line-height: 18px;
+}
+
+#p2::after {
+    content: "Info";
+    display: block;
+}
+
+#p3 {
+    line-height: 18px;
+}
+
+#p3::after {
+    content: "Auto";
+    display: block;
+}
+
+#p4 {
+    line-height: 18px;
+}
+
+#p4::after {
+    content: ".";
+    display: block;
+    color: white;
+}
+
+.middle a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 60px;
+    padding: 24px 0;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    background-color: lightblue;
+
+
+}
+
+.middle img {
+    width: 40px;
+    height: 35px;
+}
+
+#bike {
+    background-color: yellow;
+}
+
+.metro {
+    background-color: rgba(220, 20, 60, 0.11);
+    margin: 0 4px;
+    padding: 4px 8px 0 8px;
+    height: 63px;
+
+}
+
+.metro-item-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+
+.metro h5 {
+    /* border: 1px solid black; */
+    display: block;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+
+.metro h5 span {
+    color: rgb(175, 7, 7);
+}
+
+.metro button {
+    color: #fff;
+    font-size: 0.5rem;
+    display: block;
+    border: none;
+    font-weight: 500;
+    background-color: rgb(175, 7, 7);
+
+    padding: 4px 20px;
+    border-radius: 4px;
+
+}
+
+.metro-item-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 6px;
+    font-size: x-small;
+}
+
+.metro-item-2 span {
+    color: gray;
+}
+
+.metro-item-2 img {
+    position: relative;
+    right: 4px;
+}
+
+.near {
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #fff; */
+
+}
+
+.near h4,
+h6 {
+    display: block;
+    margin-bottom: 0;
+    font-size: 1rem;
+
+}
+
+.near h6 {
+    text-decoration: underline;
+}
+
+.near h4 {
+    font-weight: bold;
+}
+
+.fetch {
+    background-color: rgba(128, 128, 128, 0.315);
+    border-radius: 5px;
+    margin: 0 12px;
+}
+
+.fetch h6 {
+    text-align: center;
+    font-size: small;
+    padding-bottom: 3px;
+}
+
+.fetch-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 18px;
+}
+
+.map {
+    background-color: #fff;
+    margin-top: 14px;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.map div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px 14px;
+
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.map h4 {
+    margin-bottom: 0;
+    padding: 10px 14px 8px 14px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.ticket {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.ticket h4 {
+    font-weight: bold;
+}
+
+.ticket h6 {
+    color: gray;
+}
+
+.ticket h4,
+h6 {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.riksha {
+    /* height: 20px; */
+    background: rgb(0, 152, 58);
+    background: linear-gradient(90deg, rgba(0, 152, 58, 1) 0%, rgba(193, 200, 29, 1) 100%);
+    padding: 0 12px;
+    margin: 0 8px 8px 8px;
+}
+
+.riksha-item-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 10px 0;
+
+}
+
+.riksha small {
+    width: 130px;
+    display: block;
+    /* border: 1px solid black; */
+    font-size: 7px;
+    position: relative;
+    left: 235px;
+
+    text-align: right;
+}
